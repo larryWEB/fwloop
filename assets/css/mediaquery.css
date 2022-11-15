@@ -1,0 +1,256 @@
+@media (min-width: 375px) {
+
+ 
+   
+      .port-img img{
+    width:100%;
+    
+   }
+   
+   .port-img{
+    width:60%;
+    height:250px;
+    overflow:hidden;
+    margin-bottom:30px;
+   }
+     
+   }
+
+
+@media (min-width: 768px) {
+
+  .home-img{
+width:100%;
+filter:brightness(45%);
+z-index:-10;
+     
+}
+
+.smallie{
+width:100%;
+overflow:hidden;
+height:500px;
+}
+
+.small-screen-img{
+position:relative;
+top:80px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+/* HOMEPAGE */
+
+  .homepage{
+      display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;   
+  }
+
+
+/* DETAILS */
+
+.details{
+padding-top:150px;
+padding-bottom:150px;
+display:grid;
+grid-template-columns: repeat(2,1fr);
+
+
+}
+
+
+.details-img-card img{
+width:100%;
+}
+
+
+.details-img-card{
+width:70%;
+overflow:hidden;
+margin-left:70px;
+height:320px;
+}
+
+.details-text-card{
+margin-right:30px;
+}
+
+.details-text-card p{
+
+}
+
+.details-text-card h1{
+text-align:start;
+font-size:40px;
+}
+
+
+/* CAPTURED */
+
+.capture-mother{
+  display:grid;
+  grid-template-columns: repeat(2,250px);
+  justify-content:center;
+  align-items:center;
+  padding-top:70px;
+  padding-bottom:70px;
+  gap:80px;
+  }
+  
+  .cap-img-card img{
+  width:100%;
+  }
+  
+  .cap-img-card{
+  width:100%;
+  height:300px;
+  overflow:hidden;
+  }
+  
+  .captured-box p{
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align:center
+  }
+
+
+/* PORTFOLIO */
+
+.port-card{
+display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+
+}
+
+.port-text-card{
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+position:relative;
+top:-525px;
+margin-left:30px;
+}
+
+
+.move{
+  right:70px;
+}
+
+.port-img img{
+width:100%;
+
+}
+
+.port-img{
+width:50%;
+height:300px;
+overflow:hidden;
+margin-bottom:30px;
+}
+
+/* FAQ */
+#faq{
+  padding-bottom:70px;
+   padding-top:70px;
+  margin:100px;
+ }
+
+ #faq h1{
+   padding-bottom:10px;
+  text-align:center;
+   font-size:40px;
+ }
+
+  
+
+}
+
+
+
+
+@media (min-width: 1024px) {
+
+.logo-card{
+  position:absolute;
+  left:60px;
+  bottom:30px;
+  font-weight:bold;
+}
+
+ 
+/*MENU AND NAV BAR*/
+
+ #menu-bar{
+   display:flex;
+    flex-direction:row; 
+    z-index:99999;
+    position:fixed;
+   height:70px;
+   background-color:transparent;
+     visibility: visible;
+     justify-content:right;
+     top:-5px;
+      visibility: visible;
+     left:300px;
+   }
+   
+   
+   
+   .menu-btns{
+    visibility:hidden;
+   }
+   
+   
+   
+   
+   .nav-link-card{
+    font-weight:600;
+     font-family: 'Raleway', sans-serif;
+    top:20px;
+    font-size:14px;
+     display:inline-flex;
+     visibility: visible;
+          margin:15px;
+                  border:none;
+         }
+ 
+    .slide{
+            visibility: visible;
+           left:350px;
+      position:absolute;
+          }
+   
+   .nav-social{
+     display:none;
+   }
+   
+   
+   .nav-social img{
+    width:23px;
+    display:none;
+   }
+   
+   
+   .nav-link a{
+    text-decoration:none;
+    color:black;
+   }
+   
+   .nav-link a:hover{
+    text-decoration:none;
+    color:#e19a00;
+   } 
+   
+     
+  
+/*END OF MENU AND NAV BAR */
+}
+
